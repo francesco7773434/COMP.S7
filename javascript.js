@@ -22,6 +22,9 @@ y = new User("Freddy", "Mercury", 55, "Stati Uniti");
 
 console.log(x.compareAge(y));
 
+
+
+
 let petNameField = document.querySelector("#petName-field");
 let ownerNameField = document.querySelector("#ownerName-field");
 let speciesField = document.querySelector("#species-field");

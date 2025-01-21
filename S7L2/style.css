@@ -1,0 +1,101 @@
+body {
+  font-family: "Courier New", Courier, monospace;
+  background: #1c1c1c; 
+  color: #00ff99; 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.container {
+  width: 100%;
+  height: 50%;
+
+  padding: 20px;
+  box-sizing: border-box;
+  text-align: center;
+  border: 5px solid #00ff99; 
+  border-radius: 10px; 
+  animation: glowing-border 3s infinite alternate; 
+}
+
+#form {
+  width: max-content;
+  margin-inline: auto;
+  margin-top: 5rem;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+input {
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 15px; 
+  border-radius: 8px;
+  border: 2px solid #00ff99; 
+  background-color: #333; 
+  color: #00ff99; 
+  font-size: 16px;
+  font-family: "Courier New", Courier, monospace;
+  outline: none;
+  box-sizing: border-box;
+  transition: border-color 0.3s, box-shadow 0.3s;
+}
+
+button {
+  background-color: #ff007f; 
+  color: #fff;
+  border: none;
+  padding: 15px 30px;
+  font-size: 18px;
+  border-radius: 10px;
+  cursor: pointer;
+  width: 100%;
+  font-family: "Courier New", Courier, monospace;
+  transition: background-color 0.3s, transform 0.3s;
+  margin-bottom: 1rem;
+}
+
+h1 {
+  font-family: "Courier New", Courier, monospace;
+  font-size: 4rem; 
+  color: #00ff99; 
+  text-align: center; 
+  text-transform: uppercase; 
+  letter-spacing: 5px; 
+  margin-top: 50px; 
+  margin-bottom: 20px; 
+  text-shadow: 0 0 10px #00ff99, 0 0 20px #00ff99, 0 0 30px #00ff99; 
+  transition: color 2s, text-shadow 5s; 
+}
+
+h3 {
+  font-family: "Courier New", Courier, monospace;
+  font-size: 1, 5rem; 
+  color: #00ff99; 
+  text-align: center; 
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  text-shadow: 0 0 5px #00ff99, 0 0 10px #00ff99, 0 0 15px #00ff99; 
+  animation: blink 1s infinite alternate; 
+}
+ul {
+  list-style-type: none;
+  padding: 0;
+  margin-top: 30px;
+  width: 100%;
+  max-width: 400px;
+}
+
+.li {
+  background-color: #222; 
+  padding: 20px;
+  margin-bottom: 15px;
+  border-radius: 8px;
+  border: 2px solid #00ff99; 
+  box-shadow: 0 0 10px rgba(0, 255, 153, 0.5); 
+  font-size: 16px;
+  font-family: "Courier New", Courier, monospace;
+  color: #00ff99;
+}
