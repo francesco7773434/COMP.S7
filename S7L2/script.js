@@ -1,6 +1,7 @@
 const form = document.getElementById("form");
 const resetBtn = document.getElementById("form-reset");
 const list = document.querySelector(".list");
+const button = document.querySelector("button");
 
 const users = [];
 
@@ -21,11 +22,11 @@ form.onsubmit = function (event) {
 
   name.value = "";
 
-  const inputValue = name.value;
+  localStorage.setItem("userName", JSON.stringify(users));
 
-  localStorage.setItem("userName", inputValue);
+  const nameStorage = JSON.parse(localStorage.getItem("userName"));
 
-  console.log("Valore salvato in localStorage:", inputValue);
+  console.log("Valore salvato in localStorage:", users);
 };
 const generateNewLi = function () {
   list.innerHTML = "";
